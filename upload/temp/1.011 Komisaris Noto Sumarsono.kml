@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>1.011 Komisaris Noto Sumarsono.kml</name>
+	<Style id="LineStyle00">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0b0085</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Placemark id="ID_00006">
+		<name>Komisaris Noto Sumarsono</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Komisaris Noto Sumarsono</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Nama_Ruas</td>
+
+<td>Komisaris Noto Sumarsono</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>No_Ruas</td>
+
+<td>1011</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+		<styleUrl>#LineStyle00</styleUrl>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<LineString>
+				<coordinates>
+					109.3556987701307,-7.390184039013462,0 109.3558473687909,-7.390243816629783,0 109.356038995203,-7.390304958188201,0 109.3564355785601,-7.390394191798816,0 109.3568854840493,-7.390490035286428,0 109.357288732673,-7.390556134231273,0 109.3578052908273,-7.390655282630017,0 109.3581985415512,-7.390747821115439,0 109.358471817478,-7.390797395296076,0 109.3588250766028,-7.390883323862662,0 109.3591983315272,-7.390942812860516,0 109.3593849589894,-7.390979167244133,0 109.3595349274858,-7.391032046342256,0 109.3596649001826,-7.391117974863204,0 109.3598848539774,-7.391349320798035,0 109.3601581299042,-7.391574056732975,0 109.3603172631419,-7.391688903361461,0 109.36039724634,-7.391723605214555,0 109.360498058496,-7.391752523423387,0 109.3608579828874,-7.391812012304159,0 109.3612512336113,-7.39183845180417,0 109.3617178022667,-7.391888025862393,0 109.3622810172866,-7.391964039407518,0 109.3626709353772,-7.39201361345166,0 109.3629655740038,-7.39204617868985,0 
+				</coordinates>
+			</LineString>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

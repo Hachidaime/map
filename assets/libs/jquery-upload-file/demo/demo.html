@@ -1,0 +1,37 @@
+<html>
+<head>
+<link href="../css/uploadfile.css" rel="stylesheet">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="../js/jquery.uploadfile.min.js"></script>
+</head>
+<body>
+<div id="fileuploader">Upload</div>
+<script>
+$(document).ready(function() {
+	$("#fileuploader").uploadFile({
+		url:"../php/upload.php",
+		showDelete: true,
+		multiple:false,
+		dragDrop:false,
+		maxFileCount:1,
+		deleteCallback: function (data, pd) {
+			console.log(data+" "+pd);
+			//for (var i = 0; i < data.length; i++) {
+				$.post("../php/delete.php", {op: "delete",name: data},
+					function (resp,textStatus, jqXHR) {
+						//Show Message	
+						alert("File Deleted");
+					});
+			//}
+			pd.statusbar.hide(); //You choice.
+		},
+		showPreview:true,
+	 previewWidth: "200px",
+		fileName:"myfile"
+		
+	});
+});
+</script>
+</body>
+</html>
+

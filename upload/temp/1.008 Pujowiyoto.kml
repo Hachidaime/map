@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>1.008 Pujowiyoto.kml</name>
+	<Style id="LineStyle00">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0b0085</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Placemark id="ID_00003">
+		<name>Pujowiyoto</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Pujowiyoto</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Nama_Ruas</td>
+
+<td>Pujowiyoto</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>No_Ruas</td>
+
+<td>1008</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+		<styleUrl>#LineStyle00</styleUrl>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<LineString>
+				<coordinates>
+					109.3670630335709,-7.386217078997776,0 109.3670646324876,-7.38692941178143,0 109.367053244989,-7.387363062318047,0 109.367021359993,-7.387595697586789,0 109.3670122499941,-7.387844142884207,0 109.3670054174949,-7.388074519307887,0 109.3669963809059,-7.388451239459124,0 109.3669689774994,-7.388855991379749,0 109.366939370003,-7.389321260222745,0 109.3669074850069,-7.389626169150215,0 109.3668801550103,-7.39003271405946,0 
+				</coordinates>
+			</LineString>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

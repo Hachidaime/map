@@ -1,0 +1,283 @@
+body {
+    background-image: url('../images/bg.png');
+}
+
+th {
+    font-weight: bold;
+}
+
+/*Mainlayout*/
+.table-report {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-report td, .table-report th {
+    border: 1px solid #555;
+    padding: 4px;
+}
+
+.table-report tr:hover {background-color: #ddd;}
+
+.table-report th {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: left;
+    background-color: #d9d9d9;
+    color: #000;
+    vertical-align: top;
+}
+
+.menu-item {
+    white-space: normal;
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    display: block;
+    outline: 0;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bar-item {
+    color: #fff!important;
+    background-color: #2196F3!important;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    
+}
+
+.bar-item:hover{
+    color: #2196F3!important;
+    background-color: #fff!important;
+}
+
+.selectdiv {
+  position: relative;
+  /*Don't really need this just for demo styling*/
+  
+  float: left;
+  min-width: 200px;
+}
+ 
+/*To remove button from IE11, thank you Matt */
+select::-ms-expand {
+     display: none;
+}
+
+.selectdiv:after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f358";
+  color: #333;
+  right: 11px;
+  /*Adjust for position however you want*/
+  
+  top: 8px;
+  padding: 0 0 2px;
+  /*left line */
+  
+  position: absolute;
+  pointer-events: none;
+}
+ 
+.selectdiv select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Add some styling */
+  
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  margin: 5px 0px;
+  padding: 0px 10px;
+  font-size: 14px;
+  line-height: 1.75;
+  color: #333;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  -ms-word-break: normal;
+  word-break: normal;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+select:focus, option:focus, select::-moz-focus-inner, option::-moz-focus-inner {
+    outline: none !important;
+    /*border: none !important;*/
+}
+
+.clear{
+    clear: both;
+}
+
+/*Login*/
+.login-wrapper{
+    height: 400px;
+}
+
+.login-container{
+    width: 400px;
+    margin: 16px!important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+.icon-container{
+    width: 50px;
+}
+
+/*
+.login-input{
+    border: 1px solid #2196F3!important;
+    font-size: 12px!important;
+    border-radius: 32px;
+    padding: 8px 15px;
+    display: block;
+    width: 100%;
+    overflow: visible;
+    font: inherit;
+    margin: 0;
+}
+*/
+
+.btn-login{
+    width: 150px;
+    padding: 4px 16px!important;
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    transition: opacity 0s;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    -webkit-appearance: button;
+}
+.btn-edit{
+    border: 1px solid #4CAF50!important;
+    color: #4CAF50!important;
+    background-color: #fff!important;
+    padding: 4px 8px!important;
+    font-size: 10px!important;
+    border-radius: 50%;
+    transition: opacity 0s;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    -webkit-appearance: button;
+}
+.btn-edit:hover{
+    color: #fff!important;
+    background-color: #4CAF50!important;
+}
+.btn-delete{
+    border: 1px solid #f44336!important;
+    color: #f44336!important;
+    background-color: #fff!important;
+    padding: 4px 8px!important;
+    font-size: 10px!important;
+    border-radius: 50%;
+    transition: opacity 0s;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    -webkit-appearance: button;
+}
+.btn-delete:hover{
+    color: #fff!important;
+    background-color: #f44336!important;
+}
+
+.w3-focus-border-blue:focus{
+    border-color:#2196F3!important;
+}
+
+.custom-handle {
+    width: 30px !important;
+    height: 30px !important;
+    top: 50%;
+    margin-top: -5px;
+    text-align: center;
+    line-height: 1.6em;
+  }
+
+.upload-btn {
+    padding: 0 50px;
+/*    width: 150px;*/
+}
+
+.main-bg {
+	background: #ffffff url("../images/main-bg.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.kotakpeta { padding: 5px; margin: 0 auto; }
+#map_canvas { width: 100%; height: 500px; border: 0px; padding: 0px; margin:0 auto; }
+
+.map-bg {
+	background-color: #e7fff9;
+}
+
+.pull-right {
+  float: right;
+}
